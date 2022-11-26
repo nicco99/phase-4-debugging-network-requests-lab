@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+ added :create to the routes and added a create action in toys conrollrer
+
 
 - Update the number of likes for a toy
-
-  - How I debugged:
+ - How I debugged:
+added update action to toys controller and returned the updated touy
+ 
 
 - Donate a toy to Goodwill (and delete it from our database)
-
   - How I debugged:
+added desroy action to toys controller and destroy route to the routes
+
